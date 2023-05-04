@@ -8,6 +8,52 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
+        <!--Bluetooth Activity-->
+        <scene sceneID="Lja-ma-8L8">
+            <objects>
+                <viewController storyboardIdentifier="bluetooth" id="Mdb-n1-7mX" customClass="BluetoothActivity" customModule="Project_1" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ji2-BB-eD4">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JqW-k1-uqr">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3dD-te-jbH">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="3dD-te-jbH" firstAttribute="leading" secondItem="2Mp-fj-MNT" secondAttribute="leading" id="6hx-33-7TK"/>
+                                    <constraint firstItem="3dD-te-jbH" firstAttribute="trailing" secondItem="2Mp-fj-MNT" secondAttribute="trailing" constant="414" id="A0i-Qu-ga0"/>
+                                    <constraint firstItem="3dD-te-jbH" firstAttribute="top" secondItem="j23-Cv-UIz" secondAttribute="top" id="IU1-eD-pAn"/>
+                                    <constraint firstItem="3dD-te-jbH" firstAttribute="bottom" secondItem="2Mp-fj-MNT" secondAttribute="bottom" constant="896" id="KKz-kl-S24"/>
+                                    <constraint firstItem="3dD-te-jbH" firstAttribute="top" secondItem="2Mp-fj-MNT" secondAttribute="top" id="N2E-9D-I7y"/>
+                                    <constraint firstItem="3dD-te-jbH" firstAttribute="height" secondItem="j23-Cv-UIz" secondAttribute="height" id="QGp-KI-Ma0"/>
+                                    <constraint firstItem="3dD-te-jbH" firstAttribute="leading" secondItem="j23-Cv-UIz" secondAttribute="leading" id="bkN-E2-leV"/>
+                                    <constraint firstItem="3dD-te-jbH" firstAttribute="width" secondItem="j23-Cv-UIz" secondAttribute="width" id="hWn-R6-cOV"/>
+                                    <constraint firstItem="3dD-te-jbH" firstAttribute="trailing" secondItem="j23-Cv-UIz" secondAttribute="trailing" id="lRD-4h-BKI"/>
+                                    <constraint firstItem="3dD-te-jbH" firstAttribute="bottom" secondItem="j23-Cv-UIz" secondAttribute="bottom" id="lUC-7f-qZv"/>
+                                </constraints>
+                                <viewLayoutGuide key="contentLayoutGuide" id="2Mp-fj-MNT"/>
+                                <viewLayoutGuide key="frameLayoutGuide" id="j23-Cv-UIz"/>
+                            </scrollView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="zXK-Se-nzw"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="JqW-k1-uqr" firstAttribute="trailing" secondItem="zXK-Se-nzw" secondAttribute="trailing" id="AgZ-u8-voS"/>
+                            <constraint firstAttribute="bottom" secondItem="JqW-k1-uqr" secondAttribute="bottom" id="BMj-fJ-eDh"/>
+                            <constraint firstItem="JqW-k1-uqr" firstAttribute="leading" secondItem="zXK-Se-nzw" secondAttribute="leading" id="MQd-H0-gi8"/>
+                            <constraint firstItem="JqW-k1-uqr" firstAttribute="top" secondItem="Ji2-BB-eD4" secondAttribute="top" id="fp0-vB-GlK"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="VvA-wf-5PL" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-9546" y="-2509"/>
+        </scene>
         <!--Map Second Controller1-->
         <scene sceneID="Zgw-mB-Gmz">
             <objects>
@@ -46,7 +92,7 @@
                                                     <constraint firstAttribute="height" constant="50" id="wgO-W9-jFf"/>
                                                 </constraints>
                                                 <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="plain" title="Button">
+                                                <buttonConfiguration key="configuration" style="plain" title="Bluetooth">
                                                     <backgroundConfiguration key="background" cornerRadius="5" strokeWidth="2" strokeOutset="2">
                                                         <color key="backgroundColor" red="0.78039215689999997" green="0.59146211000000004" blue="0.393257095" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <color key="strokeColor" red="0.78039215689999997" green="0.4596559845" blue="0.61569384890000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -54,6 +100,45 @@
                                                     <fontDescription key="titleFontDescription" type="system" pointSize="13"/>
                                                     <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="blueaction:" destination="YbC-iO-PGp" eventType="touchDown" id="Tkn-dF-f6U"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="M70-Mm-WjM">
+                                                <rect key="frame" x="8" y="245" width="398" height="50"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="50" id="dHC-x3-shi"/>
+                                                </constraints>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="Wifi">
+                                                    <backgroundConfiguration key="background" cornerRadius="5" strokeWidth="2" strokeOutset="2">
+                                                        <color key="backgroundColor" red="0.78039215689999997" green="0.59146211000000004" blue="0.393257095" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <color key="strokeColor" red="0.78039215689999997" green="0.4596559845" blue="0.61569384890000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    </backgroundConfiguration>
+                                                    <fontDescription key="titleFontDescription" type="system" pointSize="13"/>
+                                                    <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="wifiaction:" destination="YbC-iO-PGp" eventType="touchDown" id="1od-Yr-o94"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2CF-2Y-X5r">
+                                                <rect key="frame" x="8" y="315" width="398" height="50"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="50" id="90Y-gl-Npu"/>
+                                                </constraints>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="Cloud Printing">
+                                                    <backgroundConfiguration key="background" cornerRadius="5" strokeWidth="2" strokeOutset="2">
+                                                        <color key="backgroundColor" red="0.78039215689999997" green="0.59146211000000004" blue="0.393257095" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <color key="strokeColor" red="0.78039215689999997" green="0.4596559845" blue="0.61569384890000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    </backgroundConfiguration>
+                                                    <fontDescription key="titleFontDescription" type="system" pointSize="13"/>
+                                                    <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="cloudAction:" destination="YbC-iO-PGp" eventType="touchDown" id="xpt-sp-Azn"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -61,7 +146,13 @@
                                             <constraint firstAttribute="trailing" secondItem="gno-bO-JEH" secondAttribute="trailing" constant="8" id="3wZ-73-SJ3"/>
                                             <constraint firstItem="bVK-3k-Z3M" firstAttribute="leading" secondItem="oBw-fl-Ulz" secondAttribute="leading" constant="8" id="4UT-uD-NIT"/>
                                             <constraint firstAttribute="trailing" secondItem="bVK-3k-Z3M" secondAttribute="trailing" constant="8" id="5CK-oR-Lzc"/>
+                                            <constraint firstItem="M70-Mm-WjM" firstAttribute="leading" secondItem="oBw-fl-Ulz" secondAttribute="leading" constant="8" id="6cY-Z5-5VX"/>
+                                            <constraint firstItem="2CF-2Y-X5r" firstAttribute="top" secondItem="M70-Mm-WjM" secondAttribute="bottom" constant="20" id="CQl-Kz-9Cn"/>
                                             <constraint firstItem="gno-bO-JEH" firstAttribute="leading" secondItem="oBw-fl-Ulz" secondAttribute="leading" constant="8" id="GoV-8w-QwJ"/>
+                                            <constraint firstAttribute="trailing" secondItem="2CF-2Y-X5r" secondAttribute="trailing" constant="8" id="KAE-1N-LUq"/>
+                                            <constraint firstAttribute="trailing" secondItem="M70-Mm-WjM" secondAttribute="trailing" constant="8" id="NMe-7t-ORz"/>
+                                            <constraint firstItem="2CF-2Y-X5r" firstAttribute="leading" secondItem="oBw-fl-Ulz" secondAttribute="leading" constant="8" id="U5H-ew-CBd"/>
+                                            <constraint firstItem="M70-Mm-WjM" firstAttribute="top" secondItem="Sgr-vq-HFI" secondAttribute="bottom" constant="20" id="aRt-fc-pFP"/>
                                             <constraint firstItem="Sgr-vq-HFI" firstAttribute="top" secondItem="gno-bO-JEH" secondAttribute="bottom" constant="20" id="b69-4u-k9K"/>
                                             <constraint firstItem="gno-bO-JEH" firstAttribute="top" secondItem="bVK-3k-Z3M" secondAttribute="bottom" constant="21" id="nNa-Aw-v5D"/>
                                             <constraint firstAttribute="trailing" secondItem="Sgr-vq-HFI" secondAttribute="trailing" constant="8" id="plD-2D-jan"/>
@@ -101,6 +192,11 @@
                             <constraint firstItem="g6V-c2-M5Y" firstAttribute="trailing" secondItem="zFX-55-KpV" secondAttribute="trailing" id="fbp-2h-wbv"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="bluetooth" destination="Sgr-vq-HFI" id="Z1z-yc-KKF"/>
+                        <outlet property="cloudprinting" destination="2CF-2Y-X5r" id="XtC-a3-l97"/>
+                        <outlet property="wifi" destination="M70-Mm-WjM" id="bCf-iI-bSg"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="UAJ-Bb-Oll" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -115,7 +211,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="b5q-3b-pul">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <rect key="frame" x="0.0" y="0.0" width="422" height="896"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ICc-3Y-bs9">
                                         <rect key="frame" x="0.0" y="8" width="406" height="896"/>

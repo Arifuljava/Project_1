@@ -33,6 +33,9 @@
 		251A9C902A035CF000FFA607 /* FirebaseStorageSwift-Beta in Frameworks */ = {isa = PBXBuildFile; productRef = 251A9C8F2A035CF000FFA607 /* FirebaseStorageSwift-Beta */; };
 		251A9C922A03805B00FFA607 /* MapSecondController1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 251A9C912A03805B00FFA607 /* MapSecondController1.swift */; };
 		251A9C942A0381A600FFA607 /* Liko.swift in Sources */ = {isa = PBXBuildFile; fileRef = 251A9C932A0381A600FFA607 /* Liko.swift */; };
+		251A9C962A03A7A600FFA607 /* BluetoothActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 251A9C952A03A7A600FFA607 /* BluetoothActivity.swift */; };
+		251A9C982A03A7BC00FFA607 /* WifiActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 251A9C972A03A7BC00FFA607 /* WifiActivity.swift */; };
+		251A9C9A2A03A7D300FFA607 /* CloudPrintingActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 251A9C992A03A7D300FFA607 /* CloudPrintingActivity.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +72,9 @@
 		251A9C722A035B4F00FFA607 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		251A9C912A03805B00FFA607 /* MapSecondController1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapSecondController1.swift; sourceTree = "<group>"; };
 		251A9C932A0381A600FFA607 /* Liko.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Liko.swift; sourceTree = "<group>"; };
+		251A9C952A03A7A600FFA607 /* BluetoothActivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BluetoothActivity.swift; sourceTree = "<group>"; };
+		251A9C972A03A7BC00FFA607 /* WifiActivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WifiActivity.swift; sourceTree = "<group>"; };
+		251A9C992A03A7D300FFA607 /* CloudPrintingActivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudPrintingActivity.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,6 +143,9 @@
 				251A9C422A0358C800FFA607 /* AppDelegate.swift */,
 				251A9C442A0358C800FFA607 /* SceneDelegate.swift */,
 				251A9C462A0358C800FFA607 /* ViewController.swift */,
+				251A9C952A03A7A600FFA607 /* BluetoothActivity.swift */,
+				251A9C972A03A7BC00FFA607 /* WifiActivity.swift */,
+				251A9C992A03A7D300FFA607 /* CloudPrintingActivity.swift */,
 				251A9C932A0381A600FFA607 /* Liko.swift */,
 				251A9C912A03805B00FFA607 /* MapSecondController1.swift */,
 				251A9C482A0358C800FFA607 /* Main.storyboard */,
@@ -318,6 +327,9 @@
 				251A9C922A03805B00FFA607 /* MapSecondController1.swift in Sources */,
 				251A9C472A0358C800FFA607 /* ViewController.swift in Sources */,
 				251A9C432A0358C800FFA607 /* AppDelegate.swift in Sources */,
+				251A9C962A03A7A600FFA607 /* BluetoothActivity.swift in Sources */,
+				251A9C982A03A7BC00FFA607 /* WifiActivity.swift in Sources */,
+				251A9C9A2A03A7D300FFA607 /* CloudPrintingActivity.swift in Sources */,
 				251A9C452A0358C800FFA607 /* SceneDelegate.swift in Sources */,
 				251A9C942A0381A600FFA607 /* Liko.swift in Sources */,
 			);
