@@ -31,6 +31,8 @@
 		251A9C8C2A035CF000FFA607 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 251A9C8B2A035CF000FFA607 /* FirebaseStorage */; };
 		251A9C8E2A035CF000FFA607 /* FirebaseStorageCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = 251A9C8D2A035CF000FFA607 /* FirebaseStorageCombine-Community */; };
 		251A9C902A035CF000FFA607 /* FirebaseStorageSwift-Beta in Frameworks */ = {isa = PBXBuildFile; productRef = 251A9C8F2A035CF000FFA607 /* FirebaseStorageSwift-Beta */; };
+		251A9C922A03805B00FFA607 /* MapSecondController1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 251A9C912A03805B00FFA607 /* MapSecondController1.swift */; };
+		251A9C942A0381A600FFA607 /* Liko.swift in Sources */ = {isa = PBXBuildFile; fileRef = 251A9C932A0381A600FFA607 /* Liko.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +67,8 @@
 		251A9C632A0358C900FFA607 /* Project_1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project_1UITests.swift; sourceTree = "<group>"; };
 		251A9C652A0358C900FFA607 /* Project_1UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project_1UITestsLaunchTests.swift; sourceTree = "<group>"; };
 		251A9C722A035B4F00FFA607 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		251A9C912A03805B00FFA607 /* MapSecondController1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapSecondController1.swift; sourceTree = "<group>"; };
+		251A9C932A0381A600FFA607 /* Liko.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Liko.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,6 +137,8 @@
 				251A9C422A0358C800FFA607 /* AppDelegate.swift */,
 				251A9C442A0358C800FFA607 /* SceneDelegate.swift */,
 				251A9C462A0358C800FFA607 /* ViewController.swift */,
+				251A9C932A0381A600FFA607 /* Liko.swift */,
+				251A9C912A03805B00FFA607 /* MapSecondController1.swift */,
 				251A9C482A0358C800FFA607 /* Main.storyboard */,
 				251A9C4B2A0358C900FFA607 /* Assets.xcassets */,
 				251A9C4D2A0358C900FFA607 /* LaunchScreen.storyboard */,
@@ -309,9 +315,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				251A9C922A03805B00FFA607 /* MapSecondController1.swift in Sources */,
 				251A9C472A0358C800FFA607 /* ViewController.swift in Sources */,
 				251A9C432A0358C800FFA607 /* AppDelegate.swift in Sources */,
 				251A9C452A0358C800FFA607 /* SceneDelegate.swift in Sources */,
+				251A9C942A0381A600FFA607 /* Liko.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -493,6 +501,7 @@
 				DEVELOPMENT_TEAM = 3K452862FK;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Project_1/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Printer;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -521,6 +530,7 @@
 				DEVELOPMENT_TEAM = 3K452862FK;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Project_1/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Printer;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
