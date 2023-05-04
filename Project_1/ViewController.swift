@@ -7,9 +7,13 @@
 
 import UIKit
 import FirebaseCore
+import FirebaseAuth
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var imageView: UIImageView!
+    
+    @IBOutlet weak var lebel: UIView!
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
@@ -17,6 +21,7 @@ class ViewController: UIViewController {
         
     }
 
-
+    
+    
 }
 
