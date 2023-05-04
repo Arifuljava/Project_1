@@ -31,6 +31,7 @@ class ViewController: UIViewController {
         //checking blueooth
         
         
+        
 }
     @objc func myblueisopen(sender :UITapGestureRecognizer)
     {
